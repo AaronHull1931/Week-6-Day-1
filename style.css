@@ -1,0 +1,38 @@
+body {
+    background-color: #888;
+}
+.inStock, .notInStock {
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Helvetica;
+  }
+  
+  .inStock {
+    background-color: #aaa;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  .notInStock {
+    display: none;
+  }
+  #clickMe {
+    background-color: #888;
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .darkMode {
+    background-color: #222;
+    color:#fff
+  }
